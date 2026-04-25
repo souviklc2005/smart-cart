@@ -61,9 +61,9 @@ function LoginPage() {
 
             <p className="text-center text-xs leading-relaxed text-muted-foreground">
               By continuing you agree to our{" "}
-              <Link to="/terms" className="text-primary underline-offset-4 hover:underline">Terms</Link>{" "}
+              <a href="#" className="text-primary underline-offset-4 hover:underline">Terms</a>{" "}
               and{" "}
-              <Link to="/privacy" className="text-primary underline-offset-4 hover:underline">Privacy Policy</Link>.
+              <a href="#" className="text-primary underline-offset-4 hover:underline">Privacy Policy</a>.
             </p>
           </div>
 

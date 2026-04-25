@@ -34,9 +34,9 @@ export function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-6 text-xs text-primary-foreground/60 sm:flex-row sm:px-6 lg:px-8">
           <span>© {new Date().getFullYear()} AisleMind. All rights reserved.</span>
           <div className="flex gap-5">
-            <Link to="/privacy">Privacy</Link>
-            <Link to="/terms">Terms</Link>
-            <Link to="/cookies">Cookies</Link>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Cookies</a>
           </div>
         </div>
       </div>
